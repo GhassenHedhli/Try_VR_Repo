@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Links</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        .container img {
+            width: 100%;
+            max-width: 500px;
+        }
+        .text-overlay {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #000;
+            text-align: center;
+            font-size: 150%;
+            text-decoration: underline;
+        }
+        .text-overlay a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+        }
+        .text-overlay a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Chart.png" alt="Chart">
+        <div class="text-overlay">
+            <a href="https://t.me/+fa_eTVuNVy04NTlk" target="_blank">Telegram</a>
+            <a href="https://x.com/BusinessM90401" target="_blank">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
